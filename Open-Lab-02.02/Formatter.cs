@@ -46,7 +46,7 @@ namespace Open_Lab_02._02
             {
                 message = message + string.Format("{0:0.00} ", i);
             }
-            message = message.Replace(',', '.');
+            message = message.Replace(',', '.'); // nutnost kvoli znakovej sade ./,
             message = message.Trim();
             Console.Write(message);
             
