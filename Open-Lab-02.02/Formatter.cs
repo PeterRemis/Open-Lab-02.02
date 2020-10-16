@@ -38,7 +38,7 @@ namespace Open_Lab_02._02
             string message = string.Join(' ', newArray);
             message = message.Replace(',' , '.');
             Console.Write(message);
-            */
+            
 
             // riesenie D
             string message = "";
@@ -49,7 +49,7 @@ namespace Open_Lab_02._02
             message = message.Replace(',', '.'); // nutnost kvoli znakovej sade ./,
             message = message.Trim();
             Console.Write(message);
-            
+            */
         }
     }
 }
